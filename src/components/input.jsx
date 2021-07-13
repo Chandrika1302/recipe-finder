@@ -27,7 +27,7 @@ class Input extends Component {
         return (
             <React.Fragment>
                 <div className="flex space-x-6 items-center justify-center">
-                    <input onChange={this.handleChange} type="text" placeholder="Enter the name of the dish" value={inputValue}className="border-2 rounded px-6 py-3"/>
+                    <input onChange={this.handleChange} type="text" placeholder="Enter the name of the dish" value={inputValue} className="border-2 rounded  p-2 w-64"/>
                     <button onClick={this.getItems} className="px-3 py-2 bg-gray-700 rounded text-gray-200">Get Ingredients</button>
                 </div>
                 {inputValue===""?
@@ -35,7 +35,7 @@ class Input extends Component {
                 <h2 className="font-bold text-2xl" id="h2-title">Type a Dish Name to Search for it's ingredients</h2>
                 :
                 meals===null?
-                <h2 className="font-bold text-2xl" id="h2-title">Not Found</h2>
+                <h5 className="font-bold text-2xl" id="h2-title">No data has been found</h5>
 :
                 
             meals.map((meal)=>{
