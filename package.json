@@ -2,7 +2,6 @@
     "name": "recipe",
     "version": "0.1.0",
     "private": true,
-    "homepage": "git@github.com:Chandrika1302/recipe-finder.git",
     "dependencies": {
         "@craco/craco": "^6.2.0",
         "@fortawesome/react-fontawesome": "^0.1.14",
@@ -49,5 +48,7 @@
         "gh-pages": "^3.2.3",
         "postcss": "^7.0.36",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
-    }
+    },
+    "homepage": "git@github.com:Chandrika1302/recipe-finder.git"
+
 }
