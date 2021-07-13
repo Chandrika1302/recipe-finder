@@ -49,6 +49,6 @@
         "postcss": "^7.0.36",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
     },
-    "homepage": "git@github.com:Chandrika1302/recipe-finder.git"
+    "homepage": "https://Chandrika1302.github.io/recipe-finder/"
 
 }
